@@ -5,7 +5,7 @@
 # create an ec2 instance
 # where to create - specify provider
 provider "aws" {
-  region = "eu-west-1"
+  region = var.region
 }
 # which service/resource to create
 # specify which image we wish to use and provide the ID (AMI ID - Amazon Machine Image ID)
